@@ -2,7 +2,7 @@ import openai
 import csv
 
 # Установите свой API-ключ напрямую
-openai.api_key = "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"
+openai.api_key = "your_api_key"
 
 # Функция для отправки запроса API OpenAI для получения оценки отзыва
 def get_review_score(review_text):
